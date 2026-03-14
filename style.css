@@ -83,10 +83,11 @@ body {
   text-align: left;
   transition: all 0.3s ease;
 }
-
-.answer-btn:hover {
-  background-color: #c8e0ea;
-  border-color: #aeb8da;
+@media (hover: hover) {
+  .answer-btn:hover {
+    background-color: #c8e0ea;
+    border-color: #aeb8da;
+  }
 }
 
 .answer-btn.correct {
@@ -151,12 +152,13 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
-button:hover {
-  background-color: #28acd4;
+@media (hover: hover) {
+  button:hover {
+    background-color: #28acd4;
+  }
 }
 
-/* responsive desing */
+/* responsive design */
 @media (max-width: 500px) {
   .screen {
     padding: 1rem;
@@ -174,4 +176,8 @@ button:hover {
     padding: 12px 25px;
     font-size: 1rem;
   }
+}
+.answer-btn:active, button:active {
+  transform: scale(0.98);
+  opacity: 0.9;
 }
