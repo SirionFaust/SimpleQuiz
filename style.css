@@ -88,8 +88,15 @@ body {
     background-color: #c8e0ea;
     border-color: #aeb8da;
   }
+  button:hover{
+  background-color: #28acd4;
+  }
 }
 
+.answer-btn:active, button:active {
+  background-color: #1a7bbd;
+  transform: scale(0.95);
+}
 .answer-btn.correct {
   background-color: #e6fff0;
   border-color: #a3f0c4;
@@ -176,8 +183,4 @@ button {
     padding: 12px 25px;
     font-size: 1rem;
   }
-}
-.answer-btn:active, button:active {
-  transform: scale(0.98);
-  opacity: 0.9;
 }
