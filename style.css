@@ -63,7 +63,7 @@ body {
   justify-content: space-between;
   color: #666;
   font-size: 1rem;
-  margin-bottom: 10px;
+  margin-bottom: 11px;
 }
 
 .answer-container {
@@ -81,7 +81,7 @@ body {
   padding: 1rem;
   cursor: pointer;
   text-align: left;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 @media (hover: hover) {
   .answer-btn:hover {
